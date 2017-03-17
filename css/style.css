@@ -1,0 +1,309 @@
+* {
+    padding:0; margin:0;
+    box-sizing: border-box;  
+}
+
+body {
+    background-color:#92e8d6;
+}
+
+nav {
+ float:right;
+} 
+
+nav ul { 
+    
+}
+    
+
+
+
+nav ul li {
+    list-style-type: none;
+    margin: 20px;
+    display:inline-block;
+    padding:10px;  
+}
+
+nav ul li a {
+    font-size:20px;
+    text-decoration: none;
+    color:black;
+    
+}
+
+nav ul li a:hover  {
+    
+    color:white;
+    background:black;  
+}
+
+h1 {
+    clear:both;
+	text-align:center;  
+}
+
+p { 
+	color:brown; 
+	font-size:20px;
+}
+
+nav ul li a:active {
+    
+    background:orange;
+     border-radius:20px;
+    transition:0.5s;
+}
+.myblock div {
+    width:30%;
+}
+.firstpic {
+   width:25%;
+   float:left;
+    margin:0px 20px 0px 10px
+    
+    
+}
+
+.firstpic img {
+    width:100%;
+    height:250px;
+    margin:50px 20px 0px 50px; 
+   
+}
+
+.firstpic p {  
+    text-align:justify;
+    margin:0px 40px 0px 50px;  
+    width:100%;
+    background:#10535D;
+    color:blanchedalmond;
+   
+    
+}
+
+.secondpic {
+    width:25%;
+    float:left;
+    margin:0px 20px 0px 10px;
+    
+}
+
+.secondpic img {
+    width:100%;
+    height:250px;
+    margin:50px 20px 0px 50px;
+}
+
+.secondpic p {
+    width:100%;
+    margin:0px 30px 0px 50px;
+    text-align:justify;
+    height:vh;
+    background:#FF8077;
+    text-transform: uppercase;
+}
+
+.thirdpic {
+    width:25%;
+    float:left;
+    margin:0px 20px 0px 10px;
+}
+
+.thirdpic img {
+      width:100%;
+     height:250px;
+     margin:50px 20px 0px 50px;
+  
+}
+
+.thirdpic p {
+     width:100%;
+     margin:0px 30px 0px 50px;
+     text-align:justify;  
+     height:vh;
+    background:#FAD168;
+       
+}
+.clearfirstpage {
+    clear:both;
+}
+
+
+.videostuff {
+    clear:left;
+    text-align:center;
+}
+.videostuff p {
+    font-style:italic;
+}
+.banner {
+    clear:both;
+    width:40%;
+    height:100px;
+    background:orange; 
+    padding:20px;
+    border: 5px solid green;
+    margin:0px auto;
+}
+.banner p {
+    text-align:center;
+    font-style:italic;
+    font-family:fantasy;
+    font-size:30px;
+}
+.banner a {
+    text-decoration:none;
+}
+/*
+.banner:hover {
+    transform:rotateY(65deg);
+    transition:3s;
+}
+*/
+@keyframes banneranimation {
+    0% {transform:rotateX(180deg)};
+    50% {transform:rotateX(0deg)};
+    100% {transform:rotateX(180deg)}
+}
+.banner:hover {
+    animation: banneranimation 5s infinite;
+    
+}
+.about1 {
+    margin:80px 20px 20px 20px;
+    height:vh;
+    border: solid black 3px;
+    overflow:hidden;
+    background:cornsilk;
+}
+.about1 img {
+    float:left;
+    width:450px;
+    height:295px;
+    margin:0px 10px 0px 0px;
+}
+.about1 p {
+    text-align:justify;
+    margin:10px;
+    
+}
+.about2 {
+    margin:80px 20px 20px 20px;
+    border: solid black 3px;
+    height:vh;
+    overflow:hidden;
+    background:burlywood;
+}
+
+.about2 img {
+ float:left;
+    width:450px;
+    height:290px;
+    margin:0px 10px 0px 0px;
+}
+.about2 p {
+    text-align:justify;
+    margin:10px;
+}
+.about3 {
+     margin:80px 20px 20px 20px;
+    border: solid black 3px;
+    height:vh;
+    overflow:hidden;
+    background:antiquewhite;
+    
+}
+.about3 img {
+    float:left;
+    width:450px;
+    height:295px;
+    margin:0px 10px 0px 0px;
+}
+.about3 p {
+    text-align:justify;
+    margin:10px;
+}
+footer {
+    font-size:20px;
+    font-style:italic;
+    margin:40px 0px 0px 200px
+}
+.portmaincontainer {
+    width=100%;
+}
+    
+
+.subportcont1 {
+    margin:20px 0px 0px 20px;
+    width:30%; 
+    float:left;
+    height:vh;
+}
+
+.subportcont1 img {
+    width:100%;
+    height:300px;
+    
+    
+}
+.subportcont1 p {
+    width:100%;
+    text-align:justify;
+    background: #50E855;
+    font-family:cursive;
+    height:vh;
+    
+}
+
+.subportcont2 {
+    width:30%;
+    float:left;
+    margin:0px 20px 0px 10px;
+    
+}
+.subportcont2 img {
+    width:100%;
+    height:300px;
+    margin:20px 0px 0px 20px;
+    
+}
+.subportcont2 p{
+    width:100%;
+    text-align:justify;
+    margin:0px 0px 0px 20px;
+    background:#FFB983;
+    font-family:cursive;  
+}
+.subportcont3 {
+    margin:20px 0px 0px 30px;
+    float:left; 
+    width:30%;
+    overflow:hidden;
+    
+}
+
+.subportcont3 img {
+    width:100%;
+    height:300px;
+   
+}
+.subportcont3 p {
+    width:100%;
+    text-align:justify;
+    background: #ECFFAB;
+    font-family:cursive;
+    
+}
+.clearingdiv {
+clear:left;
+}
+#experimentalp {
+    text-align:justify;
+    margin:10px 80px 20px 60px;
+    text-align:justify;
+}
+.contactform {
+    clear:both;
+    margin: 0px 0px 0px 40px;
+}
